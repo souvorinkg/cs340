@@ -10,11 +10,7 @@ body {
   margin-left: 40px;
   
 
-header {
-  padding: 20px;
-  background-color: #ff0000;
-  color: #ffa500;
-}
+
 
 header .row {
   display: flex;
@@ -29,9 +25,13 @@ header h1 {
 header nav {
   display: flex;
   justify-content: flex-end;
-    padding: 20px;
+  padding: 20px;
   margin: 0;
   font-size: 30px;
 }
 
-
+header {
+  padding: 20px;
+  background-color: #ff0000;
+  color: #ffa500;
+}
