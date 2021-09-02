@@ -7,6 +7,7 @@ header {
   background-color: #ff0000;
   color: #ffa500;
   font-family: 'IBM Plex Sans Arabic', sans-serif;
+  font-weight: bold;
 }
 
 header p {
