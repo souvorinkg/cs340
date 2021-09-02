@@ -3,6 +3,12 @@ body {
   font-weight: 300;
 }
 
+#desc { 
+  text-align: center;
+  font-size: 20px;
+  font-family: arial;
+  
+
 header {
   padding: 20px 0;
   background-color: #ff0000;
