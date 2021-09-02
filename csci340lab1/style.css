@@ -16,8 +16,7 @@ header {
   color: #ffa500;
 }
 
-header .row,
-footer .row {
+header .row {
   display: flex;
   align-items: center;
 }
@@ -35,7 +34,7 @@ header nav {
 header p {
   padding: 0 20px;
   margin: 0;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .jumbotron {
