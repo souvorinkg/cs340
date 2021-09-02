@@ -34,6 +34,7 @@ header nav {
 header p {
   padding: 0 20px;
   margin: 0;
+  font-size: 20px;
 }
 
 .jumbotron {
