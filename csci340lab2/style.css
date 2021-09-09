@@ -9,6 +9,10 @@ header {
 
 .bord {
   background-color: #006400;
+  
+#p1 {
+  background-color: white;
+  }
 
 img {
   width: 100px;
