@@ -2,9 +2,9 @@ header {
   text-align: center;
 }
 
-img {
-  width: 100 px;
-}
+h1 {
+  font-size: 40px;
+  margin: 50px;
 
 p {
   color: red;
