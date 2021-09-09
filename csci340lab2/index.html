@@ -1,5 +1,6 @@
 <html>
   <head>
+    var avatar 
     <title>Character Generator</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
@@ -15,7 +16,8 @@
     </header>
     <section class="container">
       <div id="desc" class="row">
-        <p id="p1"> 
+        <div class="col-sm-2"></div>
+        <p id="p1" class="col-sm-8 bord"> 
           RPGs, or role playing games, are one of the most popular types of activity Americans, <br>
           both kids and Adults, engage in. RPGs come in a number of forms, from complex video <br> 
           games like skyrim to pencil and paper setups such as Dungeon and Dragons. In my <br> 
@@ -30,6 +32,17 @@
           for your character. Second, I have provided a random activity generator to inspire <br>
           possible things your character might do. Have fun and let your imagination guide you! <br>
         </p>
+        <div class="col-sm-2 bord"></div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="row">
+        <div id="avatar" class="col-sm-6">
+          <img src="https://freesvg.org/img/abstract-user-flat-4.png">
+        </div>
+        <div id="activity" class="col-sm-6">
+          <p id="pActivity">Activity</p>
+        </div>
       </div>
     </section>
   </body>
