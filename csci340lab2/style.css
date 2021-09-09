@@ -26,3 +26,7 @@ p {
   color: red;
   text-align: center;
 }
+  
+#avatar {
+  width: 100px;
+  }
