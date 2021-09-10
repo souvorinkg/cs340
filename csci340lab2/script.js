@@ -5,7 +5,8 @@ $( document ).ready(function() {
   $('<button/>', {
         text: Generate,
         id: avatarButton,
-        click: function () { alert('hi'); }
+        click: function () { alert('hi');
+                           console.log("button works!")}
 });  
 //https://avatars.dicebear.com/api/:sprites/:seed.svg
   //https://www.boredapi.com/api/activity
