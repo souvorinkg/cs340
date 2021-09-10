@@ -5,9 +5,8 @@ $( document ).ready(function() {
   $('<button/>', {
         text: Generate,
         id: avatarButton,
-        click: function () { alert('hi');
-                           console.log("button works!")}
-}); 
+        click: function () { alert('hi'); console.log("button works!")}
+  }); 
   $("#avatarButton").appendTo("#p1");
 }
 //https://avatars.dicebear.com/api/:sprites/:seed.svg
