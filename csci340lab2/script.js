@@ -4,6 +4,11 @@ $.ajax({
     url: "https://random.dog/woof.json",
     success: function(results) {
       console.log(results["url"]);
+      $("#avatarImg").on("click", function(event) {
+            console.log(event);
+            var $img = $("<img>")
+                $("#avatarImg").attr("src","https:\/\/randomfox.ca\/images\/113.jpg")
+      })
       if (results["url"].endsWith(".mp4")) {
         $('#avatarImg').attr("src", "images/blank.png");
       } else {
@@ -14,11 +19,6 @@ $.ajax({
       console.log(error);
     console.log(results);
     }
-});
-$("#avatarImg").on("click", function(event) {
-            console.log(event);
-            var $img = $("<img>")
-                $("#avatarImg").attr("src","https:\/\/randomfox.ca\/images\/113.jpg")
 });
   //https://www.boredapi.com/api/activity
   
