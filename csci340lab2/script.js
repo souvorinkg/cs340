@@ -1,7 +1,7 @@
 $( document ).ready(function() {
   console.log( "ready!" );
   var $linkText = $("<text>")
-                $linkText.html("https:\/\/randomfox.ca\/?i="+"88")
+                $linkText.html("https:\/\/randomfox.ca\/?i=88")
   $("#avatarImg").on("click", function(event) {
             console.log(event);
             
