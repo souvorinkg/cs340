@@ -1,13 +1,13 @@
 
 $.ajax({
     dataType: "json",
-    url: "https://dog.ceo/api/breeds/image/random",
+    message: "https://dog.ceo/api/breeds/image/random",
     success: function(message) {
-      console.log(url);
+      console.log(message);
       $("#avatarImg").on("click", function(event) {
             console.log(event);
             var $img = $("<img>")
-                $("#avatarImg").attr("src",message["url"])
+                $("#avatarImg").attr("src",message)
                 $("#avatarImg").css("width","250")
       })
       //if (results["url"].endsWith(".mp4")) {
