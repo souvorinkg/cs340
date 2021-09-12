@@ -1,6 +1,7 @@
 
 $.ajax({
     dataType: "json",
+    Access-Control-Allow-Origin: *,
     url: "https://random-d.uk/api/v2",
     success: function(results) {
       console.log(results["url"]);
