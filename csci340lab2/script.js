@@ -6,7 +6,6 @@ $( document ).ready(function() {
                 $linkText.html("https:\/\/randomfox.ca\/?i="+"88")
             var $img = $("<img>")
                 $("#avatarImg").attr("src",linkText)
-                i++
         });
 });
   //https://www.boredapi.com/api/activity
