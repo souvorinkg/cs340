@@ -3,7 +3,7 @@ $.ajax({
     dataType: "json",
     url: "https://dog.ceo/api/breeds/image/random",
     success: function(message) {
-      console.log(message["url"]);
+      console.log(url);
       $("#avatarImg").on("click", function(event) {
             console.log(event);
             var $img = $("<img>")
