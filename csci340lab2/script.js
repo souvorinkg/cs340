@@ -1,8 +1,7 @@
 
 $.ajax({
     dataType: "json",
-    Access-Control-Allow-Origin: *,
-    url: "https://random-d.uk/api/v2",
+    url: "https://dog.ceo/api/breeds/image/random",
     success: function(results) {
       console.log(results["url"]);
       $("#avatarImg").on("click", function(event) {
