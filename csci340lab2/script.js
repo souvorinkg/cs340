@@ -7,13 +7,13 @@ $.ajax({
       $("#avatarImg").on("click", function(event) {
             console.log(event);
             var $img = $("<img>")
-                $("#avatarImg").attr("src","https:\/\/randomfox.ca\/images\/113.jpg")
+                $("#avatarImg").attr("src",results["url"])
       })
-      if (results["url"].endsWith(".mp4")) {
-        $('#avatarImg').attr("src", "images/blank.png");
-      } else {
-        $('#avatarImg').attr("src", results["url"]);
-      }
+      //if (results["url"].endsWith(".mp4")) {
+        //$('#avatarImg').attr("src", "images/blank.png");
+      //} else {
+        //$('#avatarImg').attr("src", results["url"]);
+      //}
     },
     error: function(xhr,status,error) {
       console.log(error);
