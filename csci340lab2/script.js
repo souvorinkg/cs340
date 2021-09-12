@@ -13,7 +13,7 @@ $.ajax({
     error: function(xhr,status,error) {
       console.log(error);
     console.log(results);
-    };
+    }
 });
 $("#avatarImg").on("click", function(event) {
             console.log(event);
