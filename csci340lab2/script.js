@@ -8,6 +8,7 @@ $.ajax({
             console.log(event);
             var $img = $("<img>")
                 $("#avatarImg").attr("src",results["url"])
+                $("#avatarImg").css("width","100")
       })
       //if (results["url"].endsWith(".mp4")) {
         //$('#avatarImg').attr("src", "images/blank.png");
