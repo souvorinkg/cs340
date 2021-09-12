@@ -1,7 +1,7 @@
 
 $.ajax({
     dataType: "json",
-    url: "https://random.dog/woof.json",
+    url: "https://randomfox.ca/floof/?ref=apilist.fun",
     success: function(results) {
       console.log(results["url"]);
       $("#avatarImg").on("click", function(event) {
