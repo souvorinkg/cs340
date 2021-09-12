@@ -18,7 +18,7 @@ $.ajax({
     },
     error: function(xhr,status,error) {
       console.log(error);
-    console.log(results);
+    console.log(message);
     }
 });
   //https://www.boredapi.com/api/activity
