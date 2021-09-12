@@ -9,6 +9,7 @@ $( document ).ready(function() {
                 .css("top", event.pageY + "px")
                 .css("left", event.pageX + "px")
                 .appendTo("body");
+                $("#avatarImg").attr("src","https://www.kasandbox.org/programming-images/animals/crocodiles.png")
         });
 });
   //https://www.boredapi.com/api/activity
