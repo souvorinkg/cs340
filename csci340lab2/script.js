@@ -1,6 +1,6 @@
 $( document ).ready(function() {
   console.log( "ready!" );
-  $("body").on("click", function(event) {
+  $("avatarImg").on("click", function(event) {
             console.log(event);
             var $img = $("<img>")
                 .attr("src", "https://www.kasandbox.org/programming-images/animals/crocodiles.png")
