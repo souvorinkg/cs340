@@ -23,8 +23,8 @@ $.ajax({
 $('#pActivity').click(function() {
     $.ajax({
       dataType: "jsonp",
-      url: "https://www.boredapi.com/api/activity",
-      
+      jsonpCallback: "parseQuote",
+      url: "https://www.boredapi.com/api/activity/?method=getActivity&format=jsonp&lang=en&jsonp=parseQuote",
       success: function(results) {
         $('#pActivity').text(results["activity"]);
       },
