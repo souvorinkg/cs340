@@ -15,7 +15,7 @@ $.ajax({
       //} else {
         //$('#avatarImg').attr("src", results["url"]);
       //}
-    },
+    //},
     error: function(xhr,status,error) {
       console.log(error);
     }
