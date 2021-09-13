@@ -23,10 +23,9 @@ $.ajax({
 $('#pActivity').click(function() {
     $.ajax({
       dataType: "jsonp",
-      jsonpCallback: "parseQuote",
       url: "https://www.boredapi.com/api/activity/?method=getActivity&format=jsonp&lang=en&jsonp=parseQuote",
       success: function(results) {
-        $('#pActivity').text(results["activity"]);
+        $('#pActivity').text("http://www.boredapi.com/api/activity?key=5881028");
       },
       error: function(xhr,status,error) {
         console.log(error);
