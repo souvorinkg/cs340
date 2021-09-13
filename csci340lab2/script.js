@@ -20,5 +20,18 @@ $.ajax({
       console.log(error);
     }
 });
-  //https://www.boredapi.com/api/activity
+$('#pActivity').click(function() {
+    $.ajax({
+      dataType: "jsonp",
+      url: "https://www.boredapi.com/api/activity",
+      
+      success: function(results) {
+        $('#pActivity').text(results["activity"]);
+      },
+      error: function(xhr,status,error) {
+        console.log(error);
+      }
+    });
+  }); 
+  //
   
