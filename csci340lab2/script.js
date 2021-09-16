@@ -17,7 +17,7 @@ $(document).ready(function() {
     $('#avatarImg').click(function() {
         $.ajax({
             dataType: "json",
-            url: {"https://randomfox.ca/floof/"},
+            url: "https://randomfox.ca/floof/",
             success: function(message) {
               console.log(message["image"]);
               console.log(image);
