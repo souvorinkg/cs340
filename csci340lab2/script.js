@@ -19,7 +19,7 @@ $(document).ready(function() {
             url: "https://randomfox.ca/floof/",
             success: function(message) {
               console.log(message["image"]);
-              $("#avatarImg").attr("src", message["image"]);
+              $("#avatarImg").attr("src", message["image"]).attr("width", "200px");
             },
             error: function(xhr,status,error) {
               console.log(message["error"]);
