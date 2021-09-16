@@ -24,7 +24,7 @@ $(document).ready(function() {
               $("#avatarImg").attr("src", message["image"]);
             },
             error: function(xhr,status,error) {
-              console.log(error);
+              console.log(message["error"]);
             console.log(message);
             }
         });
